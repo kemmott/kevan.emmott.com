@@ -1,0 +1,22 @@
+---
+layout: post
+title: afp:// vs. smb://
+date: 2005-01-07 19:11:16.000000000 -05:00
+type: post
+parent_id: '0'
+published: true
+password: ''
+status: publish
+categories: []
+tags: []
+meta:
+  _edit_last: '1'
+author:
+  login: kemmott
+  email: kevan@emmott.com
+  display_name: Kevan
+  first_name: ''
+  last_name: ''
+---
+<p>I managed to get Appletalk (well, technically, Localtalk) working on my FreeBSD-based fileserver, but I still haven't managed to work out the permissions, on the Linux webserver (running <a href="http://www.clarkconnect.org/index.php">clarkconnect</a>). So I'm "regularly" mounting both afp shares (music and software archives - I keep the iPhoto pics on the local drive) and smb shares (the sites dir), and have noticed some things.</p>
+<p>AFP is much more tolerant of interruptions or transitions in network service. Both when resuming from sleep and the switch from Airport to Ethernet (or vice versa), the afp shares stay alive. The smb share, however, never fails to, well, fail. And then, boom, up comes the "The server you were connected to is no longer available..." message. Much nicer.</p>
