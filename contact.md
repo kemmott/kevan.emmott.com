@@ -3,7 +3,6 @@ layout: page
 title: Contact
 permalink: /contact/
 ---
-<p><strong>Contact</strong></p>
 <p><form name="contact" netlify>
 <p>
   <label>Say Something<br/>
