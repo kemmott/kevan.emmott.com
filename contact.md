@@ -6,7 +6,7 @@ permalink: /contact/
 <p><form name="contact" netlify>
 <p>
   <label>Say Something<br/>
-  <textarea cols="50" rows="10"></textarea></label>
+  <textarea name="message" cols="50" rows="10"></textarea></label>
 </p>
 <p>
   <label>Name<br/>
