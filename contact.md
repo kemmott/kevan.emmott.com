@@ -6,13 +6,16 @@ permalink: /contact/
 <p><strong>Contact</strong></p>
 <p><form name="contact" netlify>
 <p>
-  <label>Say Something <input type="textarea" name="body" /></label>
+  <label>Say Something<br/>
+  <textarea cols="50" rows="10"></textarea></label>
 </p>
 <p>
-  <label>Name <input type="text" name="name" /></label>
+  <label>Name<br/>
+  <input type="text" name="name" /></label>
 </p>
   <p>
-    <label>Email <input type="email" name="email" /></label>
+    <label>Email<br/>
+    <input type="email" name="email" /></label>
   </p>
   <p>
     <button type="submit">Send</button>
