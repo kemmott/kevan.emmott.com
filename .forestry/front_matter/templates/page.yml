@@ -11,3 +11,12 @@ fields:
 - type: text
   name: permalink
   label: permalink
+- name: body
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: body
