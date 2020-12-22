@@ -20,3 +20,5 @@ fields:
     schema:
       format: markdown
   label: body
+pages:
+- other.md
