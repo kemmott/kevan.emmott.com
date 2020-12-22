@@ -1,0 +1,78 @@
+---
+label: Post
+hide_body: false
+fields:
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: text
+  name: type
+  label: type
+- type: text
+  name: parent_id
+  label: parent_id
+- type: text
+  name: password
+  label: password
+- type: text
+  name: status
+  label: status
+- type: list
+  name: categories
+  label: categories
+- type: list
+  name: tags
+  label: tags
+- type: field_group
+  name: meta
+  label: meta
+  fields:
+  - type: textarea
+    name: _publicize_done_external
+    label: _publicize_done_external
+  - type: text
+    name: _publicize_job_id
+    label: _publicize_job_id
+  - type: text
+    name: timeline_notification
+    label: timeline_notification
+  - type: text
+    name: _publicize_done_2684588
+    label: _publicize_done_2684588
+  - type: text
+    name: _wpas_done_2381393
+    label: _wpas_done_2381393
+  - type: text
+    name: _publicize_done_2684589
+    label: _publicize_done_2684589
+  - type: text
+    name: _wpas_done_2381394
+    label: _wpas_done_2381394
+  - type: text
+    name: publicize_twitter_user
+    label: publicize_twitter_user
+- type: field_group
+  name: author
+  label: author
+  fields:
+  - type: text
+    name: login
+    label: login
+  - type: text
+    name: email
+    label: email
+  - type: text
+    name: display_name
+    label: display_name
+  - type: text
+    name: first_name
+    label: first_name
+  - type: text
+    name: last_name
+    label: last_name
